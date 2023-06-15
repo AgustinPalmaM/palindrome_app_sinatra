@@ -15,6 +15,7 @@ class PalindromeAppTest < Minitest::Test
     assert doc(last_response).at_css('h1')
     assert_equal 'Sample Sinatra App', doc(last_response).at_css('h1').content
     assert_equal "Palindrome App | Index", doc(last_response).at_css('title').content
+    assert doc(last_response).at_css('nav')
   end
   
   def test_about
@@ -23,6 +24,7 @@ class PalindromeAppTest < Minitest::Test
     assert doc(last_response).at_css('h1')
     assert_equal 'About', doc(last_response).at_css('h1').content
     assert_equal "Palindrome App | About", doc(last_response).at_css('title').content
+    assert doc(last_response).at_css('nav')
   end
   
   def test_palindrome
@@ -31,6 +33,7 @@ class PalindromeAppTest < Minitest::Test
     assert doc(last_response).at_css('h1')
     assert_equal 'Palindrome Detector', doc(last_response).at_css('h1').content
     assert_equal "Palindrome App | Palindrome", doc(last_response).at_css('title').content
+    assert doc(last_response).at_css('nav')
   end
 
 end
