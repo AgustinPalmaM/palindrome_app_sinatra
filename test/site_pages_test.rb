@@ -9,12 +9,17 @@ class PalindromeAppTest < Minitest::Test
     Sinatra::Application
   end
 
+  def setup
+    @base_title = "Palindrome App"
+  end
+
   def test_index
     get '/'
     assert last_response.ok?
     assert doc(last_response).at_css('h1')
     assert_equal 'Sample Sinatra App', doc(last_response).at_css('h1').content
-    assert_equal "Palindrome App | Index", doc(last_response).at_css('title').content
+    title_content = doc(last_response).at_css('title').content
+    assert_equal "#{setup} | Index", title_content
     assert doc(last_response).at_css('nav')
   end
   
@@ -23,7 +28,8 @@ class PalindromeAppTest < Minitest::Test
     assert last_response.ok?
     assert doc(last_response).at_css('h1')
     assert_equal 'About', doc(last_response).at_css('h1').content
-    assert_equal "Palindrome App | About", doc(last_response).at_css('title').content
+    title_content = doc(last_response).at_css('title').content
+    assert_equal "#{setup} | About", title_content
     assert doc(last_response).at_css('nav')
   end
   
@@ -32,7 +38,8 @@ class PalindromeAppTest < Minitest::Test
     assert last_response.ok?
     assert doc(last_response).at_css('h1')
     assert_equal 'Palindrome Detector', doc(last_response).at_css('h1').content
-    assert_equal "Palindrome App | Palindrome", doc(last_response).at_css('title').content
+    title_content = doc(last_response).at_css('title').content
+    assert_equal "#{setup} | Palindrome", title_content
     assert doc(last_response).at_css('nav')
   end
 
