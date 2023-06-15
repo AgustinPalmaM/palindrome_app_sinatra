@@ -10,7 +10,7 @@ class PalindromeAppTest < Minitest::Test
   end
 
   def setup
-    @base_title = "Palindrome App"
+    @base_title = 'Palindrome App'
   end
 
   def test_index

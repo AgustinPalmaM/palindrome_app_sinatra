@@ -2,10 +2,9 @@
 
 source 'https://rubygems.org'
 gem 'puma', '~> 6.3'
-
 gem 'sinatra', '~> 3.0'
-
 gem 'rerun', '~> 0.14.0'
+gem "agustin_palindrome", "~> 0.2.0"
 
 group :test do
   gem 'minitest', '5.11.3'
@@ -14,3 +13,4 @@ group :test do
   gem 'rack-test',           '1.0.0'
   gem 'rake',                '12.3.1'
 end
+

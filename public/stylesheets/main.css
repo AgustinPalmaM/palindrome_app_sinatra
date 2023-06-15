@@ -98,3 +98,8 @@ p {
 .result-fail{
   background-color: #e67642;
 }
+
+.result-text {
+  font-weight: bolder;
+}
+
