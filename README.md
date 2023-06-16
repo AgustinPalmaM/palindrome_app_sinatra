@@ -29,10 +29,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Palindrome App Sinatra</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A palindrome detector maded using Ruby language, Sinatra framework and an own personal gem created and published to detect palindromes.
     <br />
     <a href="https://github.com/AgustinPalmaM/palindrome_app_sinatra"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,8 +44,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
 ![](public/images/preview_app.png)
 
