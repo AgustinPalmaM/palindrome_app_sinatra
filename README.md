@@ -51,7 +51,7 @@ This is a web app maded with the framework Sinatra, programming language Ruby an
 
 This project was maded following the learning from the good course Learn Enough Ruby to be Dengerous, at this point i have learned about Strings, Arrays, Native Objects as Math, Time, Regular Expressions and Hashes, Functions and Blocks, Functional programming using methods like Map - Select - Reduce, Objects and Classes, TDD red-green-refactor, Shell Scripts using the File class to read and write files or read urls using gems like open-uri and also manipulating the DOM using a gem called Nokogiri, finally i have created this web app called Palindrome App.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -61,7 +61,7 @@ This project was maded following the learning from the good course Learn Enough 
 * [![Sinatra][Sinatra]][Sinatra-url]
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -84,7 +84,7 @@ Then you can clone this repository and add necesary gems into the Gemfile using 
    bundle install
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- CONTACT -->
