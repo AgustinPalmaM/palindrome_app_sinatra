@@ -47,16 +47,9 @@
 
 ![](public/images/preview_app.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is a web app maded with the framework Sinatra, programming language Ruby and for this project i create and publish a Ruby Gem to detect when a word or integer is a Palindrome.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This project was maded following the learning from the good course Learn Enough Ruby to be Dengerous, at this point i have learned about Strings, Arrays, Native Objects as Math, Time, Regular Expressions and Hashes, Functions and Blocks, Functional programming using methods like Map - Select - Reduce, Objects and Classes, TDD red-green-refactor, Shell Scripts using the File class to read and write files or read urls using gems like open-uri and also manipulating the DOM using a gem called Nokogiri, finally i have created this web app called Palindrome App.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,6 +67,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Laravel][Laravel.com]][Laravel-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [![Ruby][Ruby]][Ruby-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,6 +210,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+[Ruby]: https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="Twitter" style="vertical-align:top; margin:4px
+[Ruby-url]: https://www.ruby-lang.org/en/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
